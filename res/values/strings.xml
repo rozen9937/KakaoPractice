@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">카카오톡 연습</string>
+    <string name="imagebutton_edit">편집</string>
+    <string name="imagebutton_settings">설정</string>
+    <string name="imagebutton_new_chat">대화 시작하기</string>
+
+    <string name="title_friend">친구</string>
+    <string name="title_chatting">채팅</string>
+    <string name="title_search_friend">친구찾기</string>
+    <string name="title_more">더보기</string>
+</resources>
