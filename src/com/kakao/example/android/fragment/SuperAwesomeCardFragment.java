@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.kakaoimi;
+package com.kakao.example.android.fragment;
 
 import android.graphics.Color;
 import android.os.Bundle;

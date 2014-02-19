@@ -2,6 +2,7 @@
 <resources>
     <!-- brand -->
     <color name="brand_yellow">#fff72e</color>
+    <color name="white">#ffffff</color>
     
     <!-- page -->
     <color name="page_margin_bg_color">#f2f2f2</color>
@@ -11,4 +12,12 @@
     <color name="tab_pressed_background_color">#66e6e6e6</color>
     <color name="tab_indicator_color">#FF493334</color>
     <color name="tab_underline_color">#1Acdcdd0</color>
+    
+    <!-- friends list fragment -->
+    <color name="edittext_hint_text_color">#999999</color>
+    <color name="divider_line_color">#e5e5e5</color>
+    <color name="my_profile_text_color">#3dafa7</color>
+    
+    <!-- color from kakao sample -->
+    <color name="default_background">#f7f7f0</color>
 </resources>

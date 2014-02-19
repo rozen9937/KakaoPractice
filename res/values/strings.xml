@@ -9,4 +9,76 @@
     <string name="title_chatting">채팅</string>
     <string name="title_search_friend">친구찾기</string>
     <string name="title_more">더보기</string>
+    
+    <!-- Friends List Fragment -->
+    <string name="et_friends_search_hint">이름(초성), 전화번호 검색</string>
+    <string name="my_profile">내 프로필</string>
+    <string name="friend">친구</string>
+    
+    <!-- json keys -->
+    <string name="json_key_friends_count">friends_count</string>
+    
+    <!-- Kakao App Info -->
+    <string name="client_id">89425557067386288</string>
+    <string name="client_secret">aVG0KMEd9DmZ/j9GenZZrfcwZE7bP2cGmTJH5v/FdBANDY2+z6s2PSp9R9L33FFXLUc89RsHWYdvxsfIPZ3CVg==</string>
+    <string name="pref_key">test.kakao.auth.pref.key</string>
+
+    <!-- Kakao sample app string res -->
+    <string name="send_message">Send invite message to this chatroom?</string>
+    <string name="chatroom_null">chatRoomId is null</string>
+    <string name="chatroom_title">ChatRoom Title: </string>
+    <string name="client_token">, clientToken:</string>
+    <string name="chatroom_id">ChatRoom ID: </string>
+    <string name="user_names">ChatRoom User names: </string>
+    <string name="chatting_test_message">This is Kakao example-sdk, ChattingPlus test message.</string>
+    <string name="friend_list">SDK Example Friend List</string>
+    <string name="null_friends">friends info is null.</string>
+    <string name="no_friends">There are no friends!!</string>
+    <string name="in_app_friends">Kakotalk friend using this app</string>
+    <string name="out_app_friends">Kakaotalk friend not using this app</string>
+    <string name="friends_info">View friend information</string>
+    <string name="send_message_menu">Send message</string>
+    <string name="send_link">Send link message</string>
+    <string name="excuteurl">Send link message(Excuteurl)</string>
+    <string name="send_push">Send push</string>
+    <string name="sendMessage_test">This is Kakao SDK, sendMessage test.</string>
+    <string name="sendLinkMessage_test">This is Kakao SDK, sendLinkMessage test.</string>
+    <string name="alert_send_message">Send message like below?</string>
+    <string name="push_test">This is Kakao SDK, Push test.</string>
+    <string name="alert_push">Send push like below?</string>
+    <string name="game_info">Game information</string>
+    <string name="game_me">My information</string>
+    <string name="update_me">Update my information</string>
+    <string name="use_heart">Use coint</string>
+    <string name="update_result">Update single leaderboard</string>
+    <string name="update_results">Update multiple leaderboard</string>
+    <string name="load_leaderboard">Check leaderboard</string>
+    <string name="block_message">Message block</string>
+    <string name="game_friends">Friends</string>
+    <string name="messages">received message</string>
+    <string name="delete_me">Delete my information</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_value">Check Value</string>
+    <string name="received_message">Received message</string>
+    <string name="retry"><![CDATA[Couldn\'t load my information.<br/>Try again?]]></string>
+    <string name="yes">Yes</string>
+    <string name="menu_game">Leaderboard</string>
+    <string name="menu_me">My information</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_messages">Received message</string>
+    <string name="menu_write">Story posting</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_unregister">Unregister</string>
+    <string name="menu_push_unregister">Unregister Push</string>
+    <string name="menu_push_register">Register Push</string>
+    <string name="menu_push_alert">Push alert</string>
+    <string name="menu_push_me">Push to me</string>
+    <string name="menu_read_cookie">Read cookie</string>
+    <string name="quit">Quit?</string>
+    <string name="hello">Hello!</string>
+    <string name="re_localUser"><![CDATA[Couldn\'t load my information.<br/>Try again?]]></string>
+    <string name="re_friendsList"><![CDATA[Couldn\'t load friendslist.<br/>Try again?]]></string>
+    <string name="should_send_message">Send message like below?</string>
+    <string name="no_message">No message!!</string>
 </resources>

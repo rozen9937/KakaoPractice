@@ -1,6 +1,11 @@
-package com.example.kakaoimi;
+package com.kakao.example.android.activity;
 
-import com.example.kakaoimi.PagerSlidingTabStrip.IconTabProvider;
+import com.kakao.example.android.R;
+import com.kakao.example.android.fragment.FriendListFragment;
+import com.kakao.example.android.fragment.FriendsListFragment;
+import com.kakao.example.android.fragment.SuperAwesomeCardFragment;
+import com.kakao.example.android.widget.PagerSlidingTabStrip;
+import com.kakao.example.android.widget.PagerSlidingTabStrip.IconTabProvider;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -62,6 +67,7 @@ public class KakaoActivity extends FragmentActivity {
 			switch(position) {
 			case 0:
 				return new FriendListFragment();
+//				return new FriendsListFragment();
 			default:
 				return SuperAwesomeCardFragment.newInstance(position);
 			}

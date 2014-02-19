@@ -1,4 +1,4 @@
-package com.example.kakaoimi;
+package com.kakao.example.android.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,7 +13,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +21,9 @@ import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.kakao.example.android.KakaoManager;
+import com.kakao.example.android.R;
 
 import java.util.Locale;
 
@@ -117,7 +119,8 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 		mViewGroupTitle = layout;
 		mTextViewTitle = (TextView) mViewGroupTitle.findViewById(R.id.text_title);
 		mTextViewFriendNum = (TextView) mViewGroupTitle.findViewById(R.id.text_title_friend_num);
-		mTextViewFriendNum.setText("100");
+		int friendsCount = KakaoManager.getApp().getFriendsCount();
+		mTextViewFriendNum.setText(String.valueOf(friendsCount));
 
 		mImageButtonEdit = (ImageButton) mViewGroupTitle.findViewById(R.id.imagebutton_edit);
 		mImageButtonNewChat = (ImageButton) mViewGroupTitle.findViewById(R.id.imagebutton_new_chat);
@@ -192,8 +195,6 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
     }
 
 	private void updateTitleIcon(int item) {
-		Log.i("TAG", "updateTitleIcon in!");
-		Log.i("TAG", "updateTitleIcon mImageButtonEdit is " + (mImageButtonEdit == null? "null" : "NOT null"));
 		switch(item){
 		case 0:
 			mImageButtonEdit.setVisibility(View.VISIBLE);
